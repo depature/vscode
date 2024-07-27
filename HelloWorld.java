@@ -15,7 +15,7 @@ import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class HelloWorld {
     public static void main(String[] args) throws IOException{
-
+        String try1=new String("13.27");
         int [][] matrix=new int[][]{{1,0},{0,1}};
         System.out.println(maximumOddBinaryNumber("000110"));
         }
