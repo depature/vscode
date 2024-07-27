@@ -9,22 +9,26 @@ import java.nio.channels.Selector;
 import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.PriorityQueue;
-import java.util.Queue;
-import java.util.Scanner;
 import java.util.*;
 
 import javax.swing.text.html.HTMLDocument.Iterator;
 
 public class HelloWorld {
     public static void main(String[] args) throws IOException{
+//         给定一个 m x n 的矩阵，如果一个元素为 0 ，则将其所在行和列的所有元素都设为 0 。请使用 原地 算法。
+
+ 
+
+// 示例 1：
+
+
+// 输入：matrix = [[1,1,1],[1,0,1],[1,1,1]]
+// 输出：[[1,0,1],[0,0,0],[1,0,1]]
+// 示例 2：
+
+
+// 输入：matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+// 输出：[[0,0,0,0],[0,4,5,0],[0,3,1,0]]
         int [][] matrix=new int[][]{{1,0},{0,1}};
         System.out.println(maximumOddBinaryNumber("000110"));
         }
