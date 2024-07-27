@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="springmvc" />
+          <option value="springmvc" />
+          <option value="springmvc" />
+          <option value="springmvc" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework:spring-core:6.0.6" />
+          <option value="org.springframework:spring-web:6.0.6" />
+          <option value="org.springframework:spring-expression:6.0.6" />
+          <option value="org.springframework:spring-webmvc:6.0.6" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="不可利用" />
+          <option value="不可利用" />
+          <option value="进行中" />
+          <option value="进行中" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
